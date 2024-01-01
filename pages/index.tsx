@@ -8,9 +8,9 @@ export default function Home() {
       <h3 className='text-2xl font-extrabold p-8'>Ade Tola</h3>
       
       <p className='w-full max-w-2xl p-9 text-center align-baseline'>
-        Hello, <span className="font-extrabold">I'm Tola</span> , a software engineer and a technical writer. You can contact me on Twitter.
+        Hello, <span className="font-extrabold">I&apos;m Tola</span> , a software engineer and a technical writer. You can contact me on Twitter.
 
-        (This is a very simple website for a task- built with NextJs and dynamic routing included, let's gooooo)
+        (This is a very simple website for a task- built with NextJs and dynamic routing included, let&apos;s gooooo)
       </p>
       <Link href={"/posts"}>
        <p className="text-xl hover:text-red-500">Click here to access my blog</p>
