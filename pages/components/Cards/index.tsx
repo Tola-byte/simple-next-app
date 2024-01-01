@@ -2,7 +2,7 @@ import { CardTypes } from "@/types"
 import Image from "next/image"
 
 
-export const Cards: React.FC<CardTypes> = ({title, imgsrc, author, time}) => {
+ const Cards: React.FC<CardTypes> = ({title, imgsrc, author, time}) => {
     return <div className=" hover: border-white-500 w-[400px] transition-transform transform hover:scale-105 duration-300 ease-out">
        
         <Image src={imgsrc} width={400} height={300} alt={"img"} />
@@ -18,4 +18,6 @@ export const Cards: React.FC<CardTypes> = ({title, imgsrc, author, time}) => {
             </div>
             </div>
     </div>
-}
+ }
+
+ export default Cards

@@ -1,6 +1,6 @@
 import { blogPosts, staticData } from "@/utils/staticData";
 import Link from "next/link"
-import { Cards } from "../components/Cards";
+import Cards  from "../components/Cards";
 
 
 const Posts = () => {
