@@ -71,7 +71,7 @@ export const blogPosts = {
         },
         {
             "id": "online-learning-systems",
-            "title": "Advantages of Online Learning Platforms",
+            "title": "Merits of Online Learning Platforms",
             "imgsrc": "/images/lms.jpeg",
             "content": "Learning Management Systems (LMS) have revolutionized the way education and training are delivered, offering a myriad of advantages for both learners and educators. LMS provides a centralized platform for course administration, content delivery, and tracking learner progress, making it an efficient tool for educational institutions and businesses alike. One key advantage is accessibility, as learners can engage with course materials from anywhere with an internet connection, fostering flexibility and accommodating diverse learning styles. LMS also promotes personalized learning experiences, allowing educators to tailor content to individual needs and track performance metrics in real-time. Moreover, the robust analytics and reporting features of LMS empower institutions to assess the effectiveness of their courses and make data-driven improvements. As technology continues to reshape the educational landscape, the adoption of LMS stands as a pivotal step toward enhancing the efficiency, accessibility, and effectiveness of learning initiatives.",
             "link": "https://google.com",
