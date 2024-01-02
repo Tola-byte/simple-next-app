@@ -23,13 +23,13 @@ function ProjectPage(props: {
 
 
     return (
-        <main className="flex bg-black flex-col m-auto items-center justify-between p-5">
-            <h3 className='text-2xl font-extrabold p-4'>{ props.specificPostData?.title }</h3>
+        <main className="flex bg-black h-full flex-col m-auto items-center justify-between p-5">
+            <h3 className='text-2xl text-white font-extrabold p-4'>{ props.specificPostData?.title }</h3>
             <Image src={props.specificPostData?.imgsrc} width={600} height={0} alt={"img"} />
-            <p className='w-full max-w-4xl p-9'>{ props.specificPostData?.content}</p>
+            <p className='w-full text-white max-w-4xl p-9'>{ props.specificPostData?.content}</p>
             <br />
             <a href={props.specificPostData?.link}>
-                <h4 className='hover:text-red-500'>Read more here </h4>
+                <h4 className='text-white hover:text-red-500'>Read more here </h4>
             </a>
            
         </main>

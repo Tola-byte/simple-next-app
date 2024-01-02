@@ -9,12 +9,12 @@ const Cards: React.FC<CardTypes> = ({ title, imgsrc, author, time }) => {
 
 
         <div className="p-5  bg-white text-black">
-            <h5 className=" font-extrabold">{title}</h5>
+            <h5 className=" font-extrabold text-white">{title}</h5>
 
             <div className="flex justify-between">
-                <p className="text-sm">{time} mins read</p>
+                <p className="text-sm text-white">{time} mins read</p>
 
-                <p className="text-sm">by {author}</p>
+                <p className="text-sm text-white">by {author}</p>
             </div>
         </div>
     </div>

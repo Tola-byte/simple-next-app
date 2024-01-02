@@ -8,7 +8,7 @@ const Posts = () => {
    
     return (
         <main className="flex bg-black flex-col items-center justify-between p-24">
-            <h3 className='text-2xl font-extrabold items-start'>Blog Posts</h3>
+            <h3 className='text-2xl text-white font-extrabold items-start'>Blog Posts</h3>
         <div className="flex flex-row flex-wrap justify-center gap-5 p-4">
         {
                 idAndTitleArray.map((item) => {
