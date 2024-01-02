@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="flex m-auto bg-black flex-col items-center justify-between p-8">
+    <main className="flex m-auto bg-black flex-col items-center justify-between p-8 mt-14">
     
       <Image src={"/images/codex.png"} className="transition-transform transform hover:scale-105 duration-300 ease-out" width={400} height={400} alt="images"/>
       <h3 className='text-2xl font-extrabold p-8'>Ade Tola</h3>
